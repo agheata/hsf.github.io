@@ -6,6 +6,8 @@ year: 2021
 
 ## Full List of Proposals
 
+Please check later, project proposals will be added until Feb 15, 2021
+
 {:.table .table-hover .table-striped}
 {% assign sorted_proposals = site.gsocproposals | sort: 'title' %}
 {% for proposal in sorted_proposals %}{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}
